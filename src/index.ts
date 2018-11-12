@@ -23,4 +23,4 @@ function pull ( customOptions?: Partial<options> ) {
 
 /* EXPORT */
 
-export = Object.assign ( pull, { default: pull } );
+export default pull;
